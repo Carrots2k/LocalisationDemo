@@ -1,0 +1,5 @@
+﻿msgid "greeting"
+msgstr "Olá Usuário"
+
+msgid "Welcome Text"
+msgstr "texto localizado"

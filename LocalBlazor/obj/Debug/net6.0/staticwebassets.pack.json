@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aubrey\\OneDrive - Cognadev (Pty) Ltd\\Documents\\Visual Studio 2022\\Projects\\LocalisationDemo\\LocalBlazor\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LocalBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LocalBlazor.props",
+      "PackagePath": "build\\LocalBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LocalBlazor.props",
+      "PackagePath": "buildMultiTargeting\\LocalBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LocalBlazor.props",
+      "PackagePath": "buildTransitive\\LocalBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

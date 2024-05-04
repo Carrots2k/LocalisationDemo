@@ -1,0 +1,5 @@
+﻿msgid "greeting"
+msgstr "Hallo Gebruiker"
+
+msgid "Welcome Text"
+msgstr "gelokaliseerde tekst"

@@ -1,0 +1,12 @@
+﻿@page "/"
+
+@inject IStringLocalizer<Index> local
+
+
+<PageTitle>Index</PageTitle>
+
+
+<MudText Typo="Typo.h3" GutterBottom="true">@local["greeting"]</MudText>
+<MudAlert Severity="Severity.Normal">Translated Text below: </MudAlert>
+
+<p>@local["Welcome Text"]</p>

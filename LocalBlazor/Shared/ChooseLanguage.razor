@@ -1,0 +1,67 @@
+﻿@inject NavigationManager _navManager;
+@inject IConfiguration _config;
+
+@if(cultures != null)
+{
+   @*  <form class="form-inline select-lang">
+        <select class="form-control mr-2" @onchange="onCultureChanged">
+            <option selected>@selectedLanguage</option>
+            @foreach (var culture in cultures)
+            {
+                <option value="@culture.Key">@culture.Value</option>
+            }
+        </select>
+    </form> *@
+    <form class="form-inline select-lang">
+        <select class="form-control mr-2" @onchange="onCultureChanged">
+            @foreach (var culture in cultures)
+            {
+                if (selectedLanguage == culture.Value)
+                {
+                    <option value="@culture.Key" selected>@culture.Value</option>
+                }
+                else
+                {
+                    <option value="@culture.Key">@culture.Value</option>
+                }
+            }
+        </select>
+    </form>
+}
+
+
+
+
+@code {
+    private string selectedLanguage = "";
+    private Dictionary<string, string>? cultures;
+
+    protected override void OnInitialized()
+    {
+        cultures = _config.GetSection("Cultures")
+            .GetChildren().ToDictionary(x => x.Key, x => x.Value);
+
+        selectedLanguage = Thread.CurrentThread.CurrentUICulture.Name;
+        getSelectedLanguage(selectedLanguage);
+
+    }
+
+    void getSelectedLanguage(string currentLanguage)
+    {
+        selectedLanguage = cultures.ContainsKey(currentLanguage) ? cultures[currentLanguage] : "English";
+    }
+
+    void onCultureChanged(ChangeEventArgs e)
+    {
+        var selectedCultureKey = e.Value.ToString();
+        
+        var uri = new Uri(_navManager.Uri)
+            .GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+
+        var query = $"?culture={Uri.EscapeDataString(selectedCultureKey)}&redirectUri={Uri.UnescapeDataString(uri)}";
+
+        _navManager.NavigateTo("/Culture/setCulture" + query, forceLoad: true);
+
+        getSelectedLanguage(selectedCultureKey);
+    }
+}

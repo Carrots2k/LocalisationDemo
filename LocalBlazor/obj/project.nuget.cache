@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "UeqFQM8sX2a/oVIAAlvru/3mzSDHXhOEeAwR7JGYC59PqDYTVvBygfs8XrpyRXLlMop7Blzu8MmL7BM2+DRfog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aubrey\\OneDrive - Cognadev (Pty) Ltd\\Documents\\Visual Studio 2022\\Projects\\LocalisationDemo\\LocalBlazor\\LocalBlazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.3\\microsoft.aspnetcore.components.analyzers.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.3\\microsoft.aspnetcore.components.forms.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.3\\microsoft.aspnetcore.components.web.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.3\\microsoft.aspnetcore.metadata.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.localization\\8.0.4\\microsoft.extensions.localization.8.0.4.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\8.0.4\\microsoft.extensions.localization.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\microsoft.jsinterop\\8.0.3\\microsoft.jsinterop.8.0.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\mudblazor\\6.19.1\\mudblazor.6.19.1.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\orchardcore.localization.abstractions\\1.8.3\\orchardcore.localization.abstractions.1.8.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\orchardcore.localization.core\\1.8.3\\orchardcore.localization.core.1.8.3.nupkg.sha512",
+    "C:\\Users\\Aubrey\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
